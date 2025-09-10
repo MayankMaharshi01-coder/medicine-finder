@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="main.css">
+  <title>Medicine Finder</title>
+</head>
+<body>
+
+<div id="content">
+  <div id="header">
+    <a href="main.html">HOME</a>
+    <a href="about.html">ABOUT us</a>
+    <a href="contact.html">CONTACT us</a>
+  </div>
+  <div id="main">
+    <p>Enter Medicine Name</p>
+    <input type="search" id="input">
+    <div id="button">
+      <button onclick="emptyInput()">Clear input</button>
+      <button onclick="findMedicine()">Find Alternativs</button>
+    </div>
+    <div id="medicines">
+      <div class="card">
+        <img src="https://5.imimg.com/data5/SELLER/Default/2022/9/QR/AF/MV/69966959/paracip-paracetamol-650-tablet.jpg" alt="">
+        <h2>Paracetamol</h2>
+        <p>Rs. 20</p>
+        <a href="">Buy now</a>
+      </div>
+      <div class="card">
+        <img src="https://dwaey.com/medrg/upload/1723992724.png" alt="">
+        <h2>Daraprin</h2>
+        <p>Rs. 250</p>
+        <a href="">Buy now</a>
+      </div>
+      <div class="card">
+        <img src="https://assets.mrmed.in/product-images/product-images-1719919503102-367500702-Zytiga%20250mg%20Tablet_103434.jpg" alt="">
+        <h2>Zyatiga</h2>
+        <p>Rs. 750</p>
+        <a href="">Buy now</a>
+      </div>
+      <div class="card">
+        <img src="https://onemg.gumlet.io/l_watermark_346,w_690,h_700/a_ignore,w_690,h_700,c_pad,q_auto,f_auto/a0f76dfdb04146cfb0ec1f5099800eb6.jpg" alt="">
+        <h2>Glivac</h2>
+        <p>Rs. 600</p>
+        <a href="">Buy now</a>
+      </div>
+      <div class="card">
+        <img src="https://images.apollo247.in/pub/media/catalog/product/c/o/combiflam_tablet_20_s-1.png?tr=q-80,f-webp,w-400,dpr-3,c-at_max%201200w" alt="">
+        <h2>Combiflam</h2>
+        <p>Rs. 30</p>       
+        <a href="">Buy now</a>
+    </div>
+      <div class="card">
+        <img src="https://assets.truemeds.in/Images/ProductImage/TM-TACR1-012745/ecosprin-75-tablet-14_ecosprin-75-tablet-14--TM-TACR1-012745_1.png" alt="">
+        <h2>Disprin</h2>
+        <p>Rs. 20</p>
+        <a href="">Buy now</a>
+    </div>
+      <div class="card">
+        <img src="https://cdn01.pharmeasy.in/dam/products_otc/W81928/prolyte-ors-orange-drink-sachet-21-gm-2-1654249497.jpg" alt="">
+        <h2>ORS</h2>
+        <p>Rs. 25</p>      
+        <a href="">Buy now</a>
+    </div>
+      <div class="card">
+        <img src="https://cdn01.pharmeasy.in/dam/products_otc/181140/vicks-vaporub-50ml-relief-from-cold-cough-headache-and-body-pain-2-1677525570.jpg" alt="">
+        <h2>Vics Veporub</h2>
+        <p>Rs. 120</p>                       
+        <a href="">Buy now</a>
+    </div>
+      <div class="card">
+        <img src="https://cdn01.pharmeasy.in/dam/products_otc/255390/digene-gel-acidity-gas-relief-200ml-mint-flavour-sugar-free-2-1710939921.jpg" alt="">
+        <h2>Digene</h2>
+        <p>Rs. 80</p>
+        <a href="">Buy now</a>
+    </div>
+      <div class="card">
+        <img src="https://5.imimg.com/data5/SELLER/Default/2023/2/RX/ZI/IF/81505918/strepsils-blister.jpg" alt="">
+        <h2>Strepsils</h2>
+        <p>Rs. 50</p>
+        <a href="">Buy now</a>
+    </div>
+      <div class="card">
+        <img src="https://images.apollo247.in/pub/media/catalog/product/b/e/ben0053_1.jpg?tr=q-80,f-webp,w-400,dpr-3,c-at_max%201200w" alt="">
+        <h2>Benadryl</h2>
+        <p>Rs. 80</p>
+        <a href="">Buy now</a>
+    </div>
+      <div class="card">
+        <img src="https://onemg.gumlet.io/l_watermark_346,w_480,h_480/a_ignore,w_480,h_480,c_fit,q_auto,f_auto/bodminug3xmfcubbrdix.jpg?format=auto" alt="">
+        <h2>Augmentin 1000</h2>
+        <p>Rs. 1000</p>
+        <a href="">Buy now</a>
+    </div>
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0Jd-k1uea3upVeTJNmtS8y9ASkNOwsxN8Uw&s" alt="">
+        <h2>Crostor</h2>
+        <p>Rs. 700</p>
+        <a href="">Buy now</a>
+    </div>
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3pt0WVYQOROwvBFQi4lo5Fy0HvifJla0VUw&s" alt="">
+        <h2>Lantus</h2>
+        <p>Rs. 600</p>
+        <a href="">Buy now</a>
+    </div>
+      <div class="card">
+        <img src="https://d2jx2rerrg6sh3.cloudfront.net/image-handler/picture/2021/4/shutterstock_170422580.jpg" alt="">
+        <h2>Tamiflu</h2>
+        <p>Rs. 200</p>
+        <a href="">Buy now</a>
+    </div>
+      <div class="card">
+        <img src="https://5.imimg.com/data5/SELLER/Default/2022/9/KS/UI/TA/136059498/eliquis-5mg-tablet.jpg" alt="">
+        <h2>Eliquis</h2>
+        <p>Rs. 40</p>
+        <a href="">Buy now</a>
+    </div>
+      <div class="card">
+        <img src="https://th.bing.com/th/id/OIP.wD-wGXzjnpEhI-DXb4FDrQAAAA?dpr=3&pid=ImgDetMain&PC=EMMX01" alt="">
+        <h2>Vitamin B12</h2>
+        <p>Rs. 1000</p>
+        <a href="">Buy now</a>
+    </div>
+      <div class="card">
+        <img src="https://5.imimg.com/data5/SELLER/Default/2021/3/PB/GN/IQ/9144677/trulicity-injection-1000x1000.jpg" alt="">
+        <h2>Trulicity</h2>
+        <p>Rs. 300</p>
+        <a href="">Buy now</a>
+    </div>
+      <div class="card">
+        <img src="https://5.imimg.com/data5/AV/UO/MY-10280993/fepanil-100-ml-pcm-acetaminophe.jpg" alt="">
+        <h2>Fepanil</h2>
+        <p>Rs. 25</p>
+        <a href="">Buy now</a>
+    </div>
+      <div class="card">
+        <img src="https://www.netmeds.com/images/product-v1/600x600/388100/zofer_injection_2ml_46205_0_5.jpg" alt="">
+        <h2>Zofer</h2>
+        <p>Rs. 60</p>
+        <a href="">Buy now</a>
+    </div>
+      <div class="card">
+        <img src="https://th.bing.com/th/id/OIP.FRfzgHgGQEk7RwmsJJV57QHaHa?dpr=3&pid=ImgDetMain&PC=EMMX01" alt="">
+        <h2>Codistor</h2>
+        <p>Rs. 85</p>
+        <a href="">Buy now</a>
+    </div>
+      <div class="card">
+        <img src="https://th.bing.com/th/id/OIP.-_qtySlmHip3bq14QG8e9gHaE8?dpr=3&pid=ImgDetMain&PC=EMMX01" alt="">
+        <h2>ing FC</h2>
+        <p>Rs. 150</p>
+        <a href="">Buy now</a>
+    </div>
+      <div class="card">
+        <img src="https://5.imimg.com/data5/SELLER/Default/2023/7/325934918/VP/WN/WC/86775853/2-500x500.jpg" alt="">
+        <h2>Azijiv</h2>
+        <p>Rs. 300</p>
+        <a href="">Buy now</a>
+    </div>
+      <div class="card">
+        <img src="https://wingspharma.com/images/diclowin/diclowin_injection.jpg" alt="">
+        <h2>Diclowin AQ</h2>
+        <p>Rs. 40</p>
+        <a href="">Buy now</a>
+    </div>
+      <div class="card">
+        <img src="https://newassets.apollo247.com/pub/media/catalog/product/d/y/dyn0026.jpg" alt="">
+        <h2>DinoPar</h2>
+        <p>Rs. 120</p>
+        <a href="">Buy now</a>
+    </div>
+      <div class="card">
+        <img src="https://5.imimg.com/data5/SELLER/Default/2020/9/XP/KM/FG/27724764/b-complex-injection-0.jpg" alt="">
+        <h2>B-complex ing</h2>
+        <p>Rs. 50</p>
+        <a href="">Buy now</a>
+    </div>
+      <div class="card">
+        <img src="https://th.bing.com/th/id/OIP.HORqkz7BaNRIKNZTcPA8ewHaHa?dpr=3&pid=ImgDetMain&PC=EMMX01" alt="">
+        <h2>Sinerest</h2>
+        <p>Rs. 90</p>
+        <a href="">Buy now</a>
+    </div>
+      <div class="card">
+        <img src="https://www.practostatic.com/practopedia-images/v3/res-750/ambrolite-syrup-100ml_446b9267-0c0d-4966-a80a-c7c9d779a8c6.JPG" alt="">
+        <h2>Ambrolite</h2>
+        <p>Rs. 70</p>
+        <a href="">Buy now</a>
+    </div>
+      <div class="card">
+        <img src="https://th.bing.com/th/id/OIP.LE9QzbPmApY_qk1420qDJgHaF-?dpr=3&pid=ImgDetMain&PC=EMMX01" alt="">
+        <h2>Allegra</h2>
+        <p>Rs. 80</p>
+        <a href="">Buy now</a>
+    </div>
+      <div class="card">
+        <img src="https://www.practostatic.com/practopedia-images/v3/res-750/monocef-o-100mg-dry-syrup-30ml_12eb3a2d-4721-4633-9793-882a2b7534cf.JPG" alt="">
+        <h2>Monocef-0</h2>
+        <p>Rs. 90</p>
+        <a href="">Buy now</a>
+    </div>
+      <div class="card">
+        <img src="https://www.practostatic.com/practopedia-images/v3/res-750/zifi-100mg-dry-syrup-30ml_506307c5-964a-4d1a-93b4-85f183284694.JPG" alt="">
+        <h2>Zifi Ds</h2>
+        <p>Rs. 130</p>
+        <a href="">Buy now</a>
+    </div>
+      <div class="card">
+        <img src="https://th.bing.com/th/id/OIP.0JX_Jx_iXicvtepzupKLtgHaHa?dpr=3&pid=ImgDetMain&PC=EMMX01" alt="">
+        <h2>Azee Dry</h2>
+        <p>Rs. 120</p>
+        <a href="">Buy now</a>
+    </div>
+      <div class="card">
+        <img src="https://images.apollo247.in/pub/media/catalog/product/A/S/ASC0042_1_1.jpg" alt="">
+        <h2>Ascoril</h2>
+        <p>Rs. 110</p>
+        <a href="">Buy now</a>
+    </div>
+      <div class="card">
+        <img src="https://images.apollo247.in/pub/media/catalog/product/m/a/mal0006_2.jpg" alt="">
+        <h2>Malidens</h2>
+        <p>Rs. 60</p>
+        <a href="">Buy now</a>
+    </div>
+      <div class="card">
+        <img src="https://newassets.apollo247.com/pub/media/catalog/product/d/e/dex0015_4_feb23.jpg" alt="">
+        <h2>Dexorange</h2>
+        <p>Rs. 70</p>
+        <a href="">Buy now</a>
+    </div>
+      <div class="card">
+        <img src="https://5.imimg.com/data5/SELLER/Default/2022/8/FF/AK/UB/157480842/paracip-650-paracetamol-ip-tablets-500x500.jpeg" alt="">
+        <h2>Paracip 650</h2>
+        <p>Rs. 30</p>
+        <a href="">Buy now</a>
+    </div>
+      <div class="card">
+        <img src="https://th.bing.com/th/id/OIP.mWVBdPdwGJT-1DE37D02TQHaHa?dpr=3&pid=ImgDetMain&PC=EMMX01" alt="">
+        <h2>Augmentin 625</h2>
+        <p>Rs. 180</p>
+        <a href="">Buy now</a>
+    </div>
+      <div class="card">
+        <img src="https://www.practostatic.com/practopedia-images/v3/res-750/crocin-advance-tablet-fever-20-s_30b339dc-2437-4ecf-b0ff-2977f8345993.JPG" alt="">
+        <h2>Crocine Advance</h2>
+        <p>Rs. 20</p>
+        <a href="">Buy now</a>
+    </div>
+      <div class="card">
+        <img src="https://m.media-amazon.com/images/I/91bz6RZlHZL._SL1500_.jpg" alt="">
+        <h2>Dolo 650</h2>
+        <p>Rs. 30</p>
+        <a href="">Buy now</a>
+    </div>
+      <div class="card">
+        <img src="https://cdn01.pharmeasy.in/dam/products/064425/ecosprin-75mg-strip-of-14-tablets-front-2-1607336671.jpg" alt="">
+        <h2>Ecosprin 75</h2>
+        <p>Rs. 20</p>
+        <a href="">Buy now</a>
+    </div>
+      <div class="card">
+        <img src="https://www.practostatic.com/practopedia-images/v3/res-750/zifi-100mg-dry-syrup-30ml_506307c5-964a-4d1a-93b4-85f183284694.JPG" alt="">
+        <h2>Zifi 100</h2>
+        <p>Rs. 100</p>
+        <a href="">Buy now</a>
+    </div>
+      <div class="card">
+        <img src="https://th.bing.com/th/id/OIP.siXny1qeZDjVnoaIhSoKhwHaHa?dpr=3&pid=ImgDetMain&PC=EMMX01" alt="">
+        <h2>Ciplox 500</h2>
+        <p>Rs. 150</p>
+        <a href="">Buy now</a>
+    </div>
+      <div class="card">
+        <img src="https://th.bing.com/th/id/OIP.t7653Fia8-ZFNlEJloVuEQHaHa?dpr=3&pid=ImgDetMain&PC=EMMX01" alt="">
+        <h2>Montair LC</h2>
+        <p>Rs. 250</p>
+        <a href="">Buy now</a>
+    </div>
+      <div class="card">
+        <img src="https://www.practostatic.com/practopedia-images/v3/res-750/pantocid-40mg-tablet-15-s_11637d57-99a6-495d-a4ab-79b527576a5c.JPG" alt="">
+        <h2>Pantocid 40</h2>
+        <p>Rs. 50</p>
+        <a href="">Buy now</a>
+    </div>
+    <div id="result"></div>
+  </div>
+  </div>
+</div>
+  <script src="main.js"></script>
+</body>
+</html>
